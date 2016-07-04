@@ -1,0 +1,10 @@
+syntax: glob
+
+*.iws
+*.ipr
+.idea
+.DS_Store
+build
+.gradle
+.java-version
+
