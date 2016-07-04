@@ -1,4 +1,4 @@
-package com.vtence.hamcrest;
+package com.vtence.hamcrest.jpa;
 
 import org.hamcrest.Matcher;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static com.vtence.hamcrest.SamePersistentFieldsAs.samePersistentFieldsAs;
+import static com.vtence.hamcrest.jpa.SamePersistentFieldsAs.samePersistentFieldsAs;
 
 public class SamePersistentFieldsAsTest extends AbstractMatcherTest {
 

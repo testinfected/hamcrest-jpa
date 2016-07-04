@@ -1,12 +1,12 @@
-package com.vtence.hamcrest;
+package com.vtence.hamcrest.jpa;
 
 import org.hamcrest.Matcher;
 import org.junit.Test;
 
 import javax.persistence.Embeddable;
 
-import static com.vtence.hamcrest.IsComponentEqual.componentEqualTo;
-import static com.vtence.hamcrest.SamePersistentFieldsAs.samePersistentFieldsAs;
+import static com.vtence.hamcrest.jpa.IsComponentEqual.componentEqualTo;
+import static com.vtence.hamcrest.jpa.SamePersistentFieldsAs.samePersistentFieldsAs;
 
 public class IsComponentEqualTest extends AbstractMatcherTest {
 

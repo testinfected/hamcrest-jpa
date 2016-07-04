@@ -1,4 +1,4 @@
-package com.vtence.hamcrest;
+package com.vtence.hamcrest.jpa;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
@@ -14,8 +14,8 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import static com.vtence.hamcrest.IsComponentEqual.componentEqualTo;
-import static com.vtence.hamcrest.PersistentFieldPredicate.persistentFieldsOf;
+import static com.vtence.hamcrest.jpa.IsComponentEqual.componentEqualTo;
+import static com.vtence.hamcrest.jpa.PersistentFieldPredicate.persistentFieldsOf;
 
 public class SamePersistentFieldsAs<T> extends TypeSafeDiagnosingMatcher<T> {
 

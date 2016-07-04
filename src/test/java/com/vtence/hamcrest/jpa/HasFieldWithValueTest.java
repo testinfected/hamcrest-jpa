@@ -1,9 +1,9 @@
-package com.vtence.hamcrest;
+package com.vtence.hamcrest.jpa;
 
 import org.hamcrest.Matcher;
 import org.junit.Test;
 
-import static com.vtence.hamcrest.HasFieldWithValue.hasField;
+import static com.vtence.hamcrest.jpa.HasFieldWithValue.hasField;
 import static org.hamcrest.Matchers.anything;
 import static org.hamcrest.core.IsEqual.equalTo;
 

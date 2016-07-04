@@ -1,4 +1,4 @@
-package com.vtence.hamcrest;
+package com.vtence.hamcrest.jpa;
 
 import java.lang.reflect.Field;
 import java.util.function.Predicate;

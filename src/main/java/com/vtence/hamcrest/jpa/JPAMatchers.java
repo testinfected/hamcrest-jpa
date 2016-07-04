@@ -1,4 +1,4 @@
-package com.vtence.hamcrest;
+package com.vtence.hamcrest.jpa;
 
 import org.hamcrest.Matcher;
 
