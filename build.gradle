@@ -61,7 +61,7 @@ modifyPom {
             }
         }
         scm {
-            url 'https://github.com/testinfected/jpa-matchers'
+            url 'https://github.com/testinfected/hamcrest-jpa'
             connection 'scm:git:https://github.com/testinfected/hamcrest-jpa.git'
             developerConnection 'https://github.com/testinfected/hamcrest-jpa.git'
         }
